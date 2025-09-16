@@ -1,4 +1,6 @@
-let nombre1 = 10;
-let nombre2 = 87;
-let somme = nombre1 + nombre2;
+
+function additiona(a, b) {
+    return a + b;
+}
+let somme = additiona(6, 4);
 console.log("la somme est : " + somme);
