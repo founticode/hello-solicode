@@ -23,3 +23,9 @@ if (age < 18) {
     console.log("Vous êtes majeur.");
     }
 
+/* loups */
+for (let i = 1; i <= 10; i++) {
+    if (i === 5) continue;// sauter le 5
+    console.log("nombre : " + i);
+
+}
