@@ -12,7 +12,6 @@ function addition(a, b) {
   console.log("La somme est : " + somme);
  
 let age = 20;
-
 if (age < 18) {
     console.log("vous êtes mineur. ");
 }else if (age === 18) {
