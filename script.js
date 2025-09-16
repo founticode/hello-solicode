@@ -1,6 +1,11 @@
 
-function additiona(a, b) {
-    return a + b;
+let age = 20;
+
+if (age < 18) {
+    console.log("vous êtes mineur. ");
+}else if (age === 18) {
+    console.log("Vous venez d’atteindre la majorité ! ");
+}else {
+    console.log("Vous êtes majeur.");
 }
-let somme = additiona(6, 4);
-console.log("la somme est : " + somme);
+
