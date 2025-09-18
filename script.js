@@ -2,8 +2,8 @@
 /* javascript somme */
 let nombre1 = 10;
 let nombre2 = 5;
-let somme = nombre1 + nombre2;
-console.log("La somme est : " + somme);
+let somme1 = nombre1 + nombre2;
+console.log("La somme est : " + somme1);
 
 /* javascript function */ 
 function addition(a, b) {
@@ -30,3 +30,4 @@ for (let i = 1; i <= 10; i++) {
     console.log("nombre : " + i);
 
 }
+
