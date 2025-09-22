@@ -222,5 +222,129 @@ function bro(limittt, type) {
 }
 bro(6, "even");
 bro(7, "odd");
+
+
+function yu(limmm) {
+    let h = 1;
+    let tottt = 0;
+    while (h <= limmm) {
+        tottt = tottt + h;
+        h++;
+    }
+    console.log(tottt);
+}
+yu(7);
+
+
+function duh(limp) {
+    let t = 1;
+    let totll = 0;
+    while (t <= limp) {
+        totll = totll + t;
+        t = t + 2;
+    }
+    console.log(totll);
+}
+duh(9);
+
+function stars(size) {
+    let rows = 1;
+    while (rows <= size) {
+        let line = "";
+        let col = 1;
+    while (col <= size) {
+        line = line + "*";
+        col++;
+    } 
+    console.log(line);
+    rows++;  
+    }
+}
+stars(5);
+
+
+function facture(n) {
+    let k = 5;
+    let totaaal = 1;
+    while (k >= 1) {
+        totaaal = totaaal * k;
+        k--;
+    }
+    console.log(" la facture de 5 est : " + totaaal);
+}
+facture(5);
+
+
+function starss(sizz) {
+    let row = 1;
+    
+        while (row <= sizz) {
+            let linee = "";
+            let cool = 1;
+
+            while (cool <= sizz) {
+            if (row === 1 || row === sizz){
+                linee = linee + "*";
+            }else {
+                if (cool === 1 || cool === sizz) {
+                    linee = linee + "*";
+                }else {
+                    linee = linee + " ";
+                }
+            }
+            cool++;
+                
+            }
+
+            console.log(linee);
+            row++;
+        }
+        
+}
+ 
+starss(5);
+
+
+function starsss(sizzz) {
+    let roww = 1;
+    
+        while (roww <= sizzz) {
+            let linnee = "";
+            let cooll = 1;
+
+            while (cooll <= roww) {
+            if (roww === 1 || roww === sizzz){
+                linnee += "*";
+            }else {
+                if (cooll === 1 || cooll === roww) {
+                    linnee += "*";
+                }else {
+                    linnee += " ";
+                }
+            }
+            cooll++;
+                
+            }
+
+            console.log(linnee);
+            roww++;
+        }
+        
+}
+ 
+starsss(5);
+
+
+function sos(limmpp) {
+    let z = 1;
+    
+    while (z <= 10) {
+        console.log(z);
+        z++;
+        
+    }
+}
+sos(10);
+
     
 
